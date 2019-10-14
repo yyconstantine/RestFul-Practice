@@ -1,6 +1,8 @@
 package me.sxl.billbook.model.common;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
@@ -11,12 +13,16 @@ import lombok.Data;
  */
 @Data
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)// 当定义属性为null时不返回
+@ApiModel(description = "统一响应结构")
 public class Result<T> {
 
+    @ApiModelProperty(value = "返回状态码", example = "200")
     private int code;
 
+    @ApiModelProperty(value = "返回消息", example = "查询成功")
     private String msg;
 
+    @ApiModelProperty(value = "返回数据,为null时不返回此key-value")
     private T data;
 
     public static <T> Result<T> ok (int code, String msg, T data) {
