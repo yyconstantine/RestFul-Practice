@@ -7,7 +7,7 @@ import me.sxl.billbook.model.common.ErrorEnum;
 /**
  * 业务自定义异常处理
  *
- * @author songxianglong
+ * @author yyconstantine
  * @date 2019/10/14 11:40
  */
 @Data

@@ -3,7 +3,7 @@ package me.sxl.billbook.model.common;
 import lombok.Data;
 
 /**
- * @author songxianglong
+ * @author yyconstantine
  * @date 2019/10/14 11:32
  */
 @Data

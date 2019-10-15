@@ -10,7 +10,7 @@ import javax.validation.Validator;
 /**
  * @Validate 快速返回校验结果
  *
- * @author songxianglong
+ * @author yyconstantine
  * @date 2019/10/14 11:38
  */
 @Configuration

@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * 默认启动方式为:域名/项目名/swagger-ui.html访问
  * 如本项目: http://localhost:8080/billbook/swagger-ui.html
  *
- * @author songxianglong
+ * @author yyconstantine
  * @date 2019/10/14 13:18
  */
 @EnableSwagger2

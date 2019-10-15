@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 消费展示实体
  *
- * @author songxianglong
+ * @author yyconstantine
  * @date 2019/10/12 13:23
  */
 @Data
